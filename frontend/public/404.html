@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        var redirectPath =
+          window.location.pathname + window.location.search + window.location.hash;
+        var nextUrl = new URL(window.location.origin + '/');
+        nextUrl.searchParams.set('__gh_redirect', redirectPath);
+        window.location.replace(nextUrl.toString());
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
