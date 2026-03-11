@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { BackButton } from '@/components/BackButton';
 import { convertUsdToKes, formatCurrency, getCatalog } from '@/lib/catalog';
 import { useCart } from '@/components/CartProvider';
-import { getApiBaseUrl } from '@/lib/runtime';
+import { fetchJson } from '@/lib/api';
 
 const paymentMethods = [
   { name: 'Paystack', description: 'Secure card payments and supported Paystack channels.' },
@@ -86,25 +86,25 @@ export default function CheckoutPage() {
       setQuoteError(null);
 
       try {
-        const response = await fetch(`${getApiBaseUrl()}/api/checkout/quote`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
+        const data = await fetchJson<CheckoutQuote>(
+          '/api/checkout/quote',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              items: items.map((item) => ({
+                slug: item.slug,
+                quantity: item.quantity,
+                size: item.size,
+                color: item.color,
+              })),
+            }),
           },
-          body: JSON.stringify({
-            items: items.map((item) => ({
-              slug: item.slug,
-              quantity: item.quantity,
-              size: item.size,
-              color: item.color,
-            })),
-          }),
-        });
-
-        const data = await response.json();
-        if (!response.ok) {
-          throw new Error(data.error || 'Unable to calculate checkout total.');
-        }
+          'estimate your order total',
+          6000
+        );
 
         if (!cancelled) {
           setQuote(data);
@@ -139,36 +139,36 @@ export default function CheckoutPage() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(`${getApiBaseUrl()}/api/checkout/initialize`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          customer: {
-            fullName: readField('full_name'),
-            email: readField('email'),
-            phone: readField('phone'),
-            mpesa: readField('mpesa'),
-            address: readField('address'),
-            city: readField('city'),
-            country: readField('country'),
-            postal: readField('postal'),
-            notes: readField('notes'),
+      const data = await fetchJson<{ authorizationUrl: string }>(
+        '/api/checkout/initialize',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
           },
-          items: items.map((item) => ({
-            slug: item.slug,
-            quantity: item.quantity,
-            size: item.size,
-            color: item.color,
-          })),
-        }),
-      });
-
-      const data = await response.json();
-      if (!response.ok) {
-        throw new Error(data.error || 'Unable to start payment.');
-      }
+          body: JSON.stringify({
+            customer: {
+              fullName: readField('full_name'),
+              email: readField('email'),
+              phone: readField('phone'),
+              mpesa: readField('mpesa'),
+              address: readField('address'),
+              city: readField('city'),
+              country: readField('country'),
+              postal: readField('postal'),
+              notes: readField('notes'),
+            },
+            items: items.map((item) => ({
+              slug: item.slug,
+              quantity: item.quantity,
+              size: item.size,
+              color: item.color,
+            })),
+          }),
+        },
+        'start your payment',
+        30000
+      );
 
       window.location.assign(data.authorizationUrl);
     } catch (submitError) {
@@ -256,6 +256,7 @@ export default function CheckoutPage() {
             {quoteError ? (
               <p className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-700">
                 {quoteError}
+                {fallbackQuote ? ' Using the catalog estimate below until live pricing is available.' : ''}
               </p>
             ) : null}
             {error ? (
@@ -263,7 +264,7 @@ export default function CheckoutPage() {
                 {error}
               </p>
             ) : null}
-            <button type="submit" className="w-full rounded-full bg-ebony px-5 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-soft-cream transition hover:bg-deep-gold hover:text-ebony disabled:cursor-not-allowed disabled:bg-cloud-gray/80 disabled:text-ebony/40" disabled={cartEmpty || isSubmitting || quoteLoading || Boolean(quoteError)}>
+            <button type="submit" className="w-full rounded-full bg-ebony px-5 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-soft-cream transition hover:bg-deep-gold hover:text-ebony disabled:cursor-not-allowed disabled:bg-cloud-gray/80 disabled:text-ebony/40" disabled={cartEmpty || isSubmitting}>
               {isSubmitting ? 'Pay with Mpesa' : 'Pay with Mpesa'}
             </button>
           </form>

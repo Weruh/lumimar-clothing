@@ -2,7 +2,7 @@ import React from 'react';
 import { ProductCard } from '@/components/ProductCard';
 import { ClearCartOnMount } from '@/components/ClearCartOnMount';
 import { getCatalog } from '@/lib/catalog';
-import { getApiBaseUrl } from '@/lib/runtime';
+import { fetchJson } from '@/lib/api';
 import { Link } from '@/lib/router';
 
 export default function OrderSuccessPage({
@@ -40,18 +40,18 @@ export default function OrderSuccessPage({
       setVerificationError(null);
 
       try {
-        const response = await fetch(`${getApiBaseUrl()}/api/checkout/verify`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
+        const data = await fetchJson<{ notification: string }>(
+          '/api/checkout/verify',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ reference }),
           },
-          body: JSON.stringify({ reference }),
-        });
-
-        const data = await response.json();
-        if (!response.ok) {
-          throw new Error(data.error || 'Unable to confirm your payment.');
-        }
+          'confirm your payment',
+          30000
+        );
 
         if (!cancelled) {
           if (data.notification === 'failed') {
