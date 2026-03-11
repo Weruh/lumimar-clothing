@@ -2,9 +2,9 @@
   "categories": [
     {
       "slug": "women-curvy-babes",
-      "name": "Women \u2014 Curvy Babes",
+      "name": "Women — Curvy Babes",
       "description": "Curated silhouettes and fabrics that honour curves with intention.",
-      "menu_label": "Women \u2014 Curvy Babes",
+      "menu_label": "Women — Curvy Babes",
       "menu_group": "women",
       "persona": "curvy",
       "is_active": true,
@@ -190,9 +190,9 @@
     },
     {
       "slug": "women-petite-babes",
-      "name": "Women \u2014 Petite Babes",
+      "name": "Women — Petite Babes",
       "description": "Proportions refined for smaller frames without losing presence.",
-      "menu_label": "Women \u2014 Petite Babes",
+      "menu_label": "Women — Petite Babes",
       "menu_group": "women",
       "persona": "petite",
       "is_active": true,
@@ -792,9 +792,9 @@
   "categories_flat": [
     {
       "slug": "women-curvy-babes",
-      "name": "Women \u2014 Curvy Babes",
+      "name": "Women — Curvy Babes",
       "description": "Curated silhouettes and fabrics that honour curves with intention.",
-      "menu_label": "Women \u2014 Curvy Babes",
+      "menu_label": "Women — Curvy Babes",
       "menu_group": "women",
       "persona": "curvy",
       "is_active": true,
@@ -990,9 +990,9 @@
     },
     {
       "slug": "women-petite-babes",
-      "name": "Women \u2014 Petite Babes",
+      "name": "Women — Petite Babes",
       "description": "Proportions refined for smaller frames without losing presence.",
-      "menu_label": "Women \u2014 Petite Babes",
+      "menu_label": "Women — Petite Babes",
       "menu_group": "women",
       "persona": "petite",
       "is_active": true,
@@ -1616,7 +1616,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 62.0,
+      "price": 62,
       "compare_at_price": 71.3,
       "currency": "USD",
       "stock": 2,
@@ -1802,7 +1802,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 45.0,
+      "price": 45,
       "compare_at_price": 51.75,
       "currency": "USD",
       "stock": 9,
@@ -1943,7 +1943,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 68.0,
+      "price": 68,
       "compare_at_price": 78.2,
       "currency": "USD",
       "stock": 10,
@@ -2057,7 +2057,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 65.0,
+      "price": 65,
       "compare_at_price": 74.75,
       "currency": "USD",
       "stock": 10,
@@ -2172,7 +2172,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 38.0,
+      "price": 38,
       "compare_at_price": 43.7,
       "currency": "USD",
       "stock": 11,
@@ -2287,7 +2287,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 44.0,
+      "price": 44,
       "compare_at_price": 50.6,
       "currency": "USD",
       "stock": 4,
@@ -2402,7 +2402,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 44.0,
+      "price": 44,
       "compare_at_price": 50.6,
       "currency": "USD",
       "stock": 14,
@@ -2502,7 +2502,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 48.0,
+      "price": 48,
       "compare_at_price": 55.2,
       "currency": "USD",
       "stock": 15,
@@ -2639,7 +2639,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 132.0,
+      "price": 132,
       "compare_at_price": 151.8,
       "currency": "USD",
       "stock": 14,
@@ -2765,7 +2765,7 @@
       "collections": [
         "Dresses"
       ],
-      "price": 65.0,
+      "price": 65,
       "compare_at_price": 74.75,
       "currency": "USD",
       "stock": 6,
@@ -2922,7 +2922,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 63.0,
+      "price": 63,
       "compare_at_price": 72.45,
       "currency": "USD",
       "stock": 6,
@@ -3019,7 +3019,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 33.0,
+      "price": 33,
       "compare_at_price": 37.95,
       "currency": "USD",
       "stock": 5,
@@ -3143,7 +3143,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 45.0,
+      "price": 45,
       "compare_at_price": 51.75,
       "currency": "USD",
       "stock": 13,
@@ -3241,7 +3241,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 57.0,
+      "price": 57,
       "compare_at_price": 65.55,
       "currency": "USD",
       "stock": 10,
@@ -3357,7 +3357,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 47.0,
+      "price": 47,
       "compare_at_price": 54.05,
       "currency": "USD",
       "stock": 5,
@@ -3477,7 +3477,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 48.0,
+      "price": 48,
       "compare_at_price": 55.2,
       "currency": "USD",
       "stock": 14,
@@ -3588,7 +3588,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 41.0,
+      "price": 41,
       "compare_at_price": 47.15,
       "currency": "USD",
       "stock": 14,
@@ -3675,7 +3675,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 33.0,
+      "price": 33,
       "compare_at_price": 37.95,
       "currency": "USD",
       "stock": 8,
@@ -3793,7 +3793,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 30.0,
+      "price": 30,
       "compare_at_price": 34.5,
       "currency": "USD",
       "stock": 11,
@@ -3886,7 +3886,7 @@
       "collections": [
         "Skirts"
       ],
-      "price": 41.0,
+      "price": 41,
       "compare_at_price": 47.15,
       "currency": "USD",
       "stock": 15,
@@ -3998,7 +3998,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 59.0,
+      "price": 59,
       "compare_at_price": 67.85,
       "currency": "USD",
       "stock": 13,
@@ -4117,7 +4117,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 39.0,
+      "price": 39,
       "compare_at_price": 44.85,
       "currency": "USD",
       "stock": 8,
@@ -4317,7 +4317,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 38.0,
+      "price": 38,
       "compare_at_price": 43.7,
       "currency": "USD",
       "stock": 10,
@@ -4459,7 +4459,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 82.0,
+      "price": 82,
       "compare_at_price": 94.3,
       "currency": "USD",
       "stock": 6,
@@ -4564,7 +4564,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 48.0,
+      "price": 48,
       "compare_at_price": 55.2,
       "currency": "USD",
       "stock": 9,
@@ -4679,7 +4679,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 51.0,
+      "price": 51,
       "compare_at_price": 58.65,
       "currency": "USD",
       "stock": 6,
@@ -4773,7 +4773,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 30.0,
+      "price": 30,
       "compare_at_price": 34.5,
       "currency": "USD",
       "stock": 4,
@@ -4943,7 +4943,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 26.0,
+      "price": 26,
       "compare_at_price": 29.9,
       "currency": "USD",
       "stock": 13,
@@ -5043,7 +5043,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 17.0,
+      "price": 17,
       "compare_at_price": 19.55,
       "currency": "USD",
       "stock": 15,
@@ -5185,7 +5185,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 41.0,
+      "price": 41,
       "compare_at_price": 47.15,
       "currency": "USD",
       "stock": 8,
@@ -5277,7 +5277,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 49.0,
+      "price": 49,
       "compare_at_price": 56.35,
       "currency": "USD",
       "stock": 13,
@@ -5368,7 +5368,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 38.0,
+      "price": 38,
       "compare_at_price": 43.7,
       "currency": "USD",
       "stock": 2,
@@ -5470,7 +5470,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 24.0,
+      "price": 24,
       "compare_at_price": 27.6,
       "currency": "USD",
       "stock": 15,
@@ -5596,7 +5596,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 35.0,
+      "price": 35,
       "compare_at_price": 40.25,
       "currency": "USD",
       "stock": 13,
@@ -5802,7 +5802,7 @@
       "collections": [
         "Shorts"
       ],
-      "price": 130.0,
+      "price": 130,
       "compare_at_price": 149.5,
       "currency": "USD",
       "stock": 2,
@@ -5902,7 +5902,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 32.0,
+      "price": 32,
       "compare_at_price": 36.8,
       "currency": "USD",
       "stock": 7,
@@ -6034,7 +6034,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 44.0,
+      "price": 44,
       "compare_at_price": 50.6,
       "currency": "USD",
       "stock": 17,
@@ -6125,7 +6125,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 50.0,
+      "price": 50,
       "compare_at_price": 57.5,
       "currency": "USD",
       "stock": 12,
@@ -6236,7 +6236,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 13.0,
+      "price": 13,
       "compare_at_price": 14.95,
       "currency": "USD",
       "stock": 5,
@@ -6360,7 +6360,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 14.0,
+      "price": 14,
       "compare_at_price": 16.1,
       "currency": "USD",
       "stock": 9,
@@ -6498,7 +6498,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 17.0,
+      "price": 17,
       "compare_at_price": 19.55,
       "currency": "USD",
       "stock": 14,
@@ -6606,7 +6606,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 34.0,
+      "price": 34,
       "compare_at_price": 39.1,
       "currency": "USD",
       "stock": 2,
@@ -6774,7 +6774,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 23.0,
+      "price": 23,
       "compare_at_price": 26.45,
       "currency": "USD",
       "stock": 12,
@@ -6992,7 +6992,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 26.0,
+      "price": 26,
       "compare_at_price": 29.9,
       "currency": "USD",
       "stock": 9,
@@ -7252,7 +7252,7 @@
       "collections": [
         "Tees"
       ],
-      "price": 21.0,
+      "price": 21,
       "compare_at_price": 24.15,
       "currency": "USD",
       "stock": 15,
@@ -7456,7 +7456,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 110.0,
+      "price": 110,
       "compare_at_price": 126.5,
       "currency": "USD",
       "stock": 19,
@@ -7608,7 +7608,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 102.0,
+      "price": 102,
       "compare_at_price": 117.3,
       "currency": "USD",
       "stock": 5,
@@ -7762,7 +7762,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 56.0,
+      "price": 56,
       "compare_at_price": 64.4,
       "currency": "USD",
       "stock": 9,
@@ -7867,7 +7867,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 66.0,
+      "price": 66,
       "compare_at_price": 75.9,
       "currency": "USD",
       "stock": 11,
@@ -7984,7 +7984,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 63.0,
+      "price": 63,
       "compare_at_price": 72.45,
       "currency": "USD",
       "stock": 8,
@@ -8101,7 +8101,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 50.0,
+      "price": 50,
       "compare_at_price": 57.5,
       "currency": "USD",
       "stock": 10,
@@ -8238,7 +8238,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 66.0,
+      "price": 66,
       "compare_at_price": 75.9,
       "currency": "USD",
       "stock": 10,
@@ -8340,7 +8340,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 41.0,
+      "price": 41,
       "compare_at_price": 47.15,
       "currency": "USD",
       "stock": 11,
@@ -8458,8 +8458,8 @@
       "collections": [
         "Pants"
       ],
-      "price": 100.0,
-      "compare_at_price": 115.0,
+      "price": 100,
+      "compare_at_price": 115,
       "currency": "USD",
       "stock": 10,
       "badges": [
@@ -8565,7 +8565,7 @@
       "collections": [
         "Pants"
       ],
-      "price": 50.0,
+      "price": 50,
       "compare_at_price": 57.5,
       "currency": "USD",
       "stock": 9,
@@ -8645,7 +8645,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 173.0,
+      "price": 173,
       "compare_at_price": 198.95,
       "currency": "USD",
       "stock": 6,
@@ -8748,8 +8748,8 @@
       "collections": [
         "Outwear"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 2,
       "badges": [
@@ -8890,7 +8890,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 118.0,
+      "price": 118,
       "compare_at_price": 135.7,
       "currency": "USD",
       "stock": 12,
@@ -9047,8 +9047,8 @@
       "collections": [
         "Outwear"
       ],
-      "price": 40.0,
-      "compare_at_price": 46.0,
+      "price": 40,
+      "compare_at_price": 46,
       "currency": "USD",
       "stock": 8,
       "badges": [
@@ -9224,7 +9224,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 22.0,
+      "price": 22,
       "compare_at_price": 25.3,
       "currency": "USD",
       "stock": 10,
@@ -9362,7 +9362,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 42.0,
+      "price": 42,
       "compare_at_price": 48.3,
       "currency": "USD",
       "stock": 9,
@@ -9509,7 +9509,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 138.0,
+      "price": 138,
       "compare_at_price": 158.7,
       "currency": "USD",
       "stock": 13,
@@ -9604,7 +9604,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 492.0,
+      "price": 492,
       "compare_at_price": 565.8,
       "currency": "USD",
       "stock": 2,
@@ -9773,8 +9773,8 @@
       "collections": [
         "Outwear"
       ],
-      "price": 100.0,
-      "compare_at_price": 115.0,
+      "price": 100,
+      "compare_at_price": 115,
       "currency": "USD",
       "stock": 7,
       "badges": [
@@ -9910,7 +9910,7 @@
       "collections": [
         "Outwear"
       ],
-      "price": 63.0,
+      "price": 63,
       "compare_at_price": 72.45,
       "currency": "USD",
       "stock": 9,
@@ -10035,8 +10035,8 @@
       "collections": [
         "Tops"
       ],
-      "price": 40.0,
-      "compare_at_price": 46.0,
+      "price": 40,
+      "compare_at_price": 46,
       "currency": "USD",
       "stock": 11,
       "badges": [
@@ -10152,7 +10152,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 32.0,
+      "price": 32,
       "compare_at_price": 36.8,
       "currency": "USD",
       "stock": 7,
@@ -10244,7 +10244,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 42.0,
+      "price": 42,
       "compare_at_price": 48.3,
       "currency": "USD",
       "stock": 11,
@@ -10338,7 +10338,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 36.0,
+      "price": 36,
       "compare_at_price": 41.4,
       "currency": "USD",
       "stock": 7,
@@ -10462,8 +10462,8 @@
       "collections": [
         "Tops"
       ],
-      "price": 40.0,
-      "compare_at_price": 46.0,
+      "price": 40,
+      "compare_at_price": 46,
       "currency": "USD",
       "stock": 10,
       "badges": [
@@ -10643,7 +10643,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 35.0,
+      "price": 35,
       "compare_at_price": 40.25,
       "currency": "USD",
       "stock": 5,
@@ -10766,7 +10766,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 50.0,
+      "price": 50,
       "compare_at_price": 57.5,
       "currency": "USD",
       "stock": 11,
@@ -10892,8 +10892,8 @@
       "collections": [
         "Tops"
       ],
-      "price": 40.0,
-      "compare_at_price": 46.0,
+      "price": 40,
+      "compare_at_price": 46,
       "currency": "USD",
       "stock": 12,
       "badges": [
@@ -10999,7 +10999,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 45.0,
+      "price": 45,
       "compare_at_price": 51.75,
       "currency": "USD",
       "stock": 14,
@@ -11125,7 +11125,7 @@
       "collections": [
         "Tops"
       ],
-      "price": 35.0,
+      "price": 35,
       "compare_at_price": 40.25,
       "currency": "USD",
       "stock": 12,
@@ -11251,8 +11251,8 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 11,
       "badges": [
@@ -11346,7 +11346,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 48.0,
+      "price": 48,
       "compare_at_price": 55.2,
       "currency": "USD",
       "stock": 5,
@@ -11437,7 +11437,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 45.0,
+      "price": 45,
       "compare_at_price": 51.75,
       "currency": "USD",
       "stock": 8,
@@ -11533,7 +11533,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 28.0,
+      "price": 28,
       "compare_at_price": 32.2,
       "currency": "USD",
       "stock": 14,
@@ -11644,7 +11644,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 50.0,
+      "price": 50,
       "compare_at_price": 57.5,
       "currency": "USD",
       "stock": 8,
@@ -11745,7 +11745,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 38.0,
+      "price": 38,
       "compare_at_price": 43.7,
       "currency": "USD",
       "stock": 9,
@@ -11846,7 +11846,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 49.0,
+      "price": 49,
       "compare_at_price": 56.35,
       "currency": "USD",
       "stock": 11,
@@ -11947,7 +11947,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 35.0,
+      "price": 35,
       "compare_at_price": 40.25,
       "currency": "USD",
       "stock": 11,
@@ -12048,7 +12048,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 58.0,
+      "price": 58,
       "compare_at_price": 66.7,
       "currency": "USD",
       "stock": 9,
@@ -12169,7 +12169,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 58.0,
+      "price": 58,
       "compare_at_price": 66.7,
       "currency": "USD",
       "stock": 9,
@@ -12265,8 +12265,8 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 20.0,
-      "compare_at_price": 23.0,
+      "price": 20,
+      "compare_at_price": 23,
       "currency": "USD",
       "stock": 6,
       "badges": [
@@ -12436,8 +12436,8 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 180.0,
-      "compare_at_price": 207.0,
+      "price": 180,
+      "compare_at_price": 207,
       "currency": "USD",
       "stock": 10,
       "badges": [
@@ -12541,8 +12541,8 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 120.0,
-      "compare_at_price": 138.0,
+      "price": 120,
+      "compare_at_price": 138,
       "currency": "USD",
       "stock": 12,
       "badges": [
@@ -12646,8 +12646,8 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 120.0,
-      "compare_at_price": 138.0,
+      "price": 120,
+      "compare_at_price": 138,
       "currency": "USD",
       "stock": 6,
       "badges": [
@@ -12736,7 +12736,7 @@
       "collections": [
         "Plus Size"
       ],
-      "price": 90.0,
+      "price": 90,
       "compare_at_price": 103.5,
       "currency": "USD",
       "stock": 19,
@@ -12856,7 +12856,7 @@
       "collections": [
         "Events"
       ],
-      "price": 535.0,
+      "price": 535,
       "compare_at_price": 615.25,
       "currency": "USD",
       "stock": 6,
@@ -12962,7 +12962,7 @@
       "collections": [
         "Events"
       ],
-      "price": 275.0,
+      "price": 275,
       "compare_at_price": 316.25,
       "currency": "USD",
       "stock": 14,
@@ -13057,7 +13057,7 @@
       "collections": [
         "Events"
       ],
-      "price": 150.0,
+      "price": 150,
       "compare_at_price": 172.5,
       "currency": "USD",
       "stock": 17,
@@ -13138,8 +13138,8 @@
       "collections": [
         "Events"
       ],
-      "price": 140.0,
-      "compare_at_price": 161.0,
+      "price": 140,
+      "compare_at_price": 161,
       "currency": "USD",
       "stock": 4,
       "badges": [
@@ -13219,7 +13219,7 @@
       "collections": [
         "Events"
       ],
-      "price": 495.0,
+      "price": 495,
       "compare_at_price": 569.25,
       "currency": "USD",
       "stock": 9,
@@ -13326,7 +13326,7 @@
       "collections": [
         "Events"
       ],
-      "price": 532.0,
+      "price": 532,
       "compare_at_price": 611.8,
       "currency": "USD",
       "stock": 3,
@@ -13428,7 +13428,7 @@
       "collections": [
         "Events"
       ],
-      "price": 105.0,
+      "price": 105,
       "compare_at_price": 120.75,
       "currency": "USD",
       "stock": 7,
@@ -13533,7 +13533,7 @@
       "collections": [
         "Events"
       ],
-      "price": 212.0,
+      "price": 212,
       "compare_at_price": 243.8,
       "currency": "USD",
       "stock": 13,
@@ -13670,7 +13670,7 @@
       "collections": [
         "Events"
       ],
-      "price": 345.0,
+      "price": 345,
       "compare_at_price": 396.75,
       "currency": "USD",
       "stock": 15,
@@ -13786,8 +13786,8 @@
       "collections": [
         "Events"
       ],
-      "price": 200.0,
-      "compare_at_price": 230.0,
+      "price": 200,
+      "compare_at_price": 230,
       "currency": "USD",
       "stock": 16,
       "badges": [
@@ -13903,7 +13903,7 @@
       "collections": [
         "Baby"
       ],
-      "price": 30.0,
+      "price": 30,
       "compare_at_price": 34.5,
       "currency": "USD",
       "stock": 2,
@@ -14053,8 +14053,8 @@
       "collections": [
         "Baby"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 10,
       "badges": [
@@ -14186,7 +14186,7 @@
       "collections": [
         "Baby"
       ],
-      "price": 15.0,
+      "price": 15,
       "compare_at_price": 17.25,
       "currency": "USD",
       "stock": 17,
@@ -14317,7 +14317,7 @@
       "collections": [
         "Baby"
       ],
-      "price": 28.0,
+      "price": 28,
       "compare_at_price": 32.2,
       "currency": "USD",
       "stock": 6,
@@ -14408,7 +14408,7 @@
       "collections": [
         "Baby"
       ],
-      "price": 25.0,
+      "price": 25,
       "compare_at_price": 28.75,
       "currency": "USD",
       "stock": 20,
@@ -14529,7 +14529,7 @@
       "collections": [
         "Baby"
       ],
-      "price": 30.0,
+      "price": 30,
       "compare_at_price": 34.5,
       "currency": "USD",
       "stock": 17,
@@ -14650,8 +14650,8 @@
       "collections": [
         "Baby"
       ],
-      "price": 20.0,
-      "compare_at_price": 23.0,
+      "price": 20,
+      "compare_at_price": 23,
       "currency": "USD",
       "stock": 11,
       "badges": [
@@ -14771,8 +14771,8 @@
       "collections": [
         "Baby"
       ],
-      "price": 20.0,
-      "compare_at_price": 23.0,
+      "price": 20,
+      "compare_at_price": 23,
       "currency": "USD",
       "stock": 11,
       "badges": [
@@ -14867,8 +14867,8 @@
       "collections": [
         "Baby"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 16,
       "badges": [
@@ -14946,14 +14946,14 @@
       "sku": "LUMI-XLS-0110",
       "slug": "baby-010",
       "title": "BABY 010",
-      "subtitle": "2Pcs\u3010Officially Licensed\u3011Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard ",
+      "subtitle": "2Pcs【Officially Licensed】Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard ",
       "category_slug": "kids-sizes-0-3",
       "persona": "kids",
       "collections": [
         "Baby"
       ],
-      "price": 40.0,
-      "compare_at_price": 46.0,
+      "price": 40,
+      "compare_at_price": 46,
       "currency": "USD",
       "stock": 5,
       "badges": [
@@ -15025,8 +15025,8 @@
         }
       ],
       "video": null,
-      "short_description": "2Pcs\u3010Officially Licensed\u3011Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard ",
-      "description": "2Pcs\u3010Officially Licensed\u3011Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard Print All-Over Cartoon Pattern, Slightly Stretchy, Suitable for Girls' Daily Wear, Great Gift Choice\n\nMeasurements: 6MONTHS - 3YEARS",
+      "short_description": "2Pcs【Officially Licensed】Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard ",
+      "description": "2Pcs【Officially Licensed】Disney Exclusively Developed Mickey Mouse Autumn/Winter Long-Sleeve Dress Two-Pack, Featuring Minnie Mouse Leopard Print All-Over Cartoon Pattern, Slightly Stretchy, Suitable for Girls' Daily Wear, Great Gift Choice\n\nMeasurements: 6MONTHS - 3YEARS",
       "care": [],
       "shipping_notes": [
         "Ships in 2018-10-01",
@@ -15053,7 +15053,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 90.0,
+      "price": 90,
       "compare_at_price": 103.5,
       "currency": "USD",
       "stock": 10,
@@ -15069,10 +15069,20 @@
         }
       ],
       "sizes": [
-        "35 - 40"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ],
       "quick_sizes": [
-        "35 - 40"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SNEAKERS 001/1.jpeg",
@@ -15163,7 +15173,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 42.0,
+      "price": 42,
       "compare_at_price": 48.3,
       "currency": "USD",
       "stock": 9,
@@ -15180,10 +15190,30 @@
         }
       ],
       "sizes": [
-        "37 - 47"
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
       ],
       "quick_sizes": [
-        "37 - 47"
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SNEAKERS 002/0.jpeg",
@@ -15294,7 +15324,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 66.0,
+      "price": 66,
       "compare_at_price": 75.9,
       "currency": "USD",
       "stock": 9,
@@ -15311,10 +15341,30 @@
         }
       ],
       "sizes": [
-        "36 - 46"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "quick_sizes": [
-        "36 - 46"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SNEAKERS 003/0.jpeg",
@@ -15425,7 +15475,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 87.0,
+      "price": 87,
       "compare_at_price": 100.05,
       "currency": "USD",
       "stock": 6,
@@ -15442,10 +15492,30 @@
         }
       ],
       "sizes": [
-        "37 - 47"
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
       ],
       "quick_sizes": [
-        "37 - 47"
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SNEAKERS 004/0.jpeg",
@@ -15566,7 +15636,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 46.0,
+      "price": 46,
       "compare_at_price": 52.9,
       "currency": "USD",
       "stock": 13,
@@ -15583,10 +15653,26 @@
         }
       ],
       "sizes": [
-        "36 - 44"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
       ],
       "quick_sizes": [
-        "36 - 44"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SNEAKERS 005/0.jpeg",
@@ -15701,13 +15787,13 @@
       "sku": "LUMI-XLS-0116",
       "slug": "heels-001",
       "title": "HEELS 001",
-      "subtitle": "\u3010Measure your feet length before order\u3011Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1",
+      "subtitle": "【Measure your feet length before order】Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1",
       "category_slug": "shoes-lumimar-kicks-sneakers",
       "persona": "footwear",
       "collections": [
         "Shoes"
       ],
-      "price": 90.0,
+      "price": 90,
       "compare_at_price": 103.5,
       "currency": "USD",
       "stock": 12,
@@ -15723,10 +15809,34 @@
         }
       ],
       "sizes": [
-        "34 - 46"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "quick_sizes": [
-        "34 - 46"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/HEELS 001/0.jpeg",
@@ -15899,8 +16009,8 @@
         }
       ],
       "video": null,
-      "short_description": "\u3010Measure your feet length before order\u3011Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1",
-      "description": "\u3010Measure your feet length before order\u3011Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1\n\nMeasurements: 34 EU 4US 21.5cm",
+      "short_description": "【Measure your feet length before order】Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1",
+      "description": "【Measure your feet length before order】Women Stiletto High Heel Buckle Strappy Sandal Zippers Punk Evening Prom Lady Shoe I-SL-1\n\nMeasurements: 34 EU 4US 21.5cm",
       "care": [],
       "shipping_notes": [
         "Ships in 2018-10-01",
@@ -15927,8 +16037,8 @@
       "collections": [
         "Shoes"
       ],
-      "price": 100.0,
-      "compare_at_price": 115.0,
+      "price": 100,
+      "compare_at_price": 115,
       "currency": "USD",
       "stock": 8,
       "badges": [
@@ -15943,10 +16053,30 @@
         }
       ],
       "sizes": [
-        "34 - 44"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
       ],
       "quick_sizes": [
-        "34 - 44"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/HEELS 002/10.jpeg",
@@ -16232,7 +16362,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 190.0,
+      "price": 190,
       "compare_at_price": 218.5,
       "currency": "USD",
       "stock": 12,
@@ -16337,8 +16467,8 @@
       "collections": [
         "Shoes"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 11,
       "badges": [
@@ -16353,10 +16483,32 @@
         }
       ],
       "sizes": [
-        "35 - 46"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "quick_sizes": [
-        "35 - 46"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/HEELS 004/0.jpeg",
@@ -16637,7 +16789,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 195.0,
+      "price": 195,
       "compare_at_price": 224.25,
       "currency": "USD",
       "stock": 8,
@@ -16654,10 +16806,36 @@
         }
       ],
       "sizes": [
-        "33 - 46"
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "quick_sizes": [
-        "33 - 46"
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/HEELS 005/0.jpeg",
@@ -16763,7 +16941,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 23.0,
+      "price": 23,
       "compare_at_price": 26.45,
       "currency": "USD",
       "stock": 15,
@@ -16780,10 +16958,22 @@
         }
       ],
       "sizes": [
-        "36 - 42"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ],
       "quick_sizes": [
-        "36 - 42"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SANDALS 001/0.jpeg",
@@ -16894,7 +17084,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 19.0,
+      "price": 19,
       "compare_at_price": 21.85,
       "currency": "USD",
       "stock": 7,
@@ -16911,10 +17101,20 @@
         }
       ],
       "sizes": [
-        "36 - 41"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "quick_sizes": [
-        "36 - 41"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SANDALS 002/0.jpeg",
@@ -16995,7 +17195,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 28.0,
+      "price": 28,
       "compare_at_price": 32.2,
       "currency": "USD",
       "stock": 17,
@@ -17012,10 +17212,22 @@
         }
       ],
       "sizes": [
-        "36 - 42"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ],
       "quick_sizes": [
-        "36 - 42"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SANDALS 003/0.jpeg",
@@ -17126,7 +17338,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 26.0,
+      "price": 26,
       "compare_at_price": 29.9,
       "currency": "USD",
       "stock": 12,
@@ -17143,10 +17355,20 @@
         }
       ],
       "sizes": [
-        "36 - 41"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "quick_sizes": [
-        "36 - 41"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SANDALS 004/0.jpeg",
@@ -17237,7 +17459,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 25.0,
+      "price": 25,
       "compare_at_price": 28.75,
       "currency": "USD",
       "stock": 6,
@@ -17254,10 +17476,24 @@
         }
       ],
       "sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "quick_sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/SANDALS 005/0.jpeg",
@@ -17378,7 +17614,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 190.0,
+      "price": 190,
       "compare_at_price": 218.5,
       "currency": "USD",
       "stock": 10,
@@ -17395,10 +17631,28 @@
         }
       ],
       "sizes": [
-        "34 - 43"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "quick_sizes": [
-        "34 - 43"
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/BOOTS 001/0.jpeg",
@@ -17469,7 +17723,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 75.0,
+      "price": 75,
       "compare_at_price": 86.25,
       "currency": "USD",
       "stock": 6,
@@ -17486,10 +17740,24 @@
         }
       ],
       "sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "quick_sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/BOOTS 002/0.jpeg",
@@ -17565,7 +17833,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 35.0,
+      "price": 35,
       "compare_at_price": 40.25,
       "currency": "USD",
       "stock": 11,
@@ -17581,10 +17849,22 @@
         }
       ],
       "sizes": [
-        "35 - 41"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "quick_sizes": [
-        "35 - 41"
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/BOOTS 003/0.jpeg",
@@ -17675,7 +17955,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 65.0,
+      "price": 65,
       "compare_at_price": 74.75,
       "currency": "USD",
       "stock": 9,
@@ -17770,7 +18050,7 @@
       "collections": [
         "Shoes"
       ],
-      "price": 65.0,
+      "price": 65,
       "compare_at_price": 74.75,
       "currency": "USD",
       "stock": 2,
@@ -17787,10 +18067,24 @@
         }
       ],
       "sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "quick_sizes": [
-        "36 - 43"
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
       "materials": [],
       "hero_image": "/static/img/LUMIMAR DIVAS/BOOTS 005/0.jpeg",
@@ -17861,7 +18155,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 70.0,
+      "price": 70,
       "compare_at_price": 80.5,
       "currency": "USD",
       "stock": 7,
@@ -17956,7 +18250,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 123.0,
+      "price": 123,
       "compare_at_price": 141.45,
       "currency": "USD",
       "stock": 18,
@@ -18052,7 +18346,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 125.0,
+      "price": 125,
       "compare_at_price": 143.75,
       "currency": "USD",
       "stock": 7,
@@ -18143,7 +18437,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 37.0,
+      "price": 37,
       "compare_at_price": 42.55,
       "currency": "USD",
       "stock": 4,
@@ -18284,7 +18578,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 52.0,
+      "price": 52,
       "compare_at_price": 59.8,
       "currency": "USD",
       "stock": 10,
@@ -18375,7 +18669,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 45.0,
+      "price": 45,
       "compare_at_price": 51.75,
       "currency": "USD",
       "stock": 8,
@@ -18471,8 +18765,8 @@
       "collections": [
         "Bags"
       ],
-      "price": 60.0,
-      "compare_at_price": 69.0,
+      "price": 60,
+      "compare_at_price": 69,
       "currency": "USD",
       "stock": 4,
       "badges": [
@@ -18561,7 +18855,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 150.0,
+      "price": 150,
       "compare_at_price": 172.5,
       "currency": "USD",
       "stock": 13,
@@ -18801,7 +19095,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 229.0,
+      "price": 229,
       "compare_at_price": 263.35,
       "currency": "USD",
       "stock": 4,
@@ -18902,7 +19196,7 @@
       "collections": [
         "Bags"
       ],
-      "price": 32.0,
+      "price": 32,
       "compare_at_price": 36.8,
       "currency": "USD",
       "stock": 5,
@@ -18992,7 +19286,7 @@
       "collections": [
         "Accessories"
       ],
-      "price": 13.0,
+      "price": 13,
       "compare_at_price": 14.95,
       "currency": "USD",
       "stock": 3,
@@ -19123,7 +19417,7 @@
       "collections": [
         "Accessories"
       ],
-      "price": 12.0,
+      "price": 12,
       "compare_at_price": 13.8,
       "currency": "USD",
       "stock": 11,
@@ -19253,7 +19547,7 @@
       "collections": [
         "Accessories"
       ],
-      "price": 15.0,
+      "price": 15,
       "compare_at_price": 17.25,
       "currency": "USD",
       "stock": 11,
@@ -19353,7 +19647,7 @@
       "collections": [
         "Accessories"
       ],
-      "price": 30.0,
+      "price": 30,
       "compare_at_price": 34.5,
       "currency": "USD",
       "stock": 14,
@@ -19453,7 +19747,7 @@
       "collections": [
         "Accessories"
       ],
-      "price": 42.0,
+      "price": 42,
       "compare_at_price": 48.3,
       "currency": "USD",
       "stock": 10,
@@ -19533,7 +19827,7 @@
       "collections": [
         "Hair"
       ],
-      "price": 235.0,
+      "price": 235,
       "compare_at_price": 270.25,
       "currency": "USD",
       "stock": 13,
@@ -19637,7 +19931,7 @@
       "collections": [
         "Hair"
       ],
-      "price": 225.0,
+      "price": 225,
       "compare_at_price": 258.75,
       "currency": "USD",
       "stock": 8,
@@ -19750,7 +20044,7 @@
       "collections": [
         "Hair"
       ],
-      "price": 145.0,
+      "price": 145,
       "compare_at_price": 166.75,
       "currency": "USD",
       "stock": 5,
@@ -19859,8 +20153,8 @@
       "collections": [
         "Hair"
       ],
-      "price": 260.0,
-      "compare_at_price": 299.0,
+      "price": 260,
+      "compare_at_price": 299,
       "currency": "USD",
       "stock": 8,
       "badges": [
@@ -19970,7 +20264,7 @@
       "collections": [
         "Hair"
       ],
-      "price": 138.0,
+      "price": 138,
       "compare_at_price": 158.7,
       "currency": "USD",
       "stock": 6,
