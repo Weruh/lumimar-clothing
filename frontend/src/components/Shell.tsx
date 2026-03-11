@@ -6,6 +6,7 @@ import { Modals } from './Modals';
 import { Footer } from './Footer';
 import type { MegaMenuSection } from '@/lib/catalog';
 import { useCart } from '@/components/CartProvider';
+import { useRouteLocation } from '@/lib/router';
 
 export type ShellProps = {
   megaMenu?: MegaMenuSection[];
@@ -15,6 +16,7 @@ export type ShellProps = {
 export function Shell({ megaMenu, children }: ShellProps) {
   const menuSections = Array.isArray(megaMenu) ? megaMenu : [];
   const { items, totals } = useCart();
+  const { pathname, search, hash } = useRouteLocation();
   const [mobileNav, setMobileNav] = useState(false);
   const [miniCartOpen, setMiniCartOpen] = useState(false);
   const [wishlistOpen, setWishlistOpen] = useState(false);
@@ -40,6 +42,12 @@ export function Shell({ megaMenu, children }: ShellProps) {
     document.documentElement.classList.toggle('overflow-hidden', shouldLock);
     document.body.classList.toggle('overflow-hidden', shouldLock);
   }, [miniCartOpen, wishlistOpen, mobileNav]);
+
+  useEffect(() => {
+    setMobileNav(false);
+    setMiniCartOpen(false);
+    setWishlistOpen(false);
+  }, [pathname, search, hash]);
 
   return (
     <>

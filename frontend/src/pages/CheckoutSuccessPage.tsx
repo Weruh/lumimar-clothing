@@ -18,6 +18,7 @@ export default function OrderSuccessPage({
   };
   const reference = readValue('reference') || readValue('trxref') || null;
   const [verificationMessage, setVerificationMessage] = React.useState<string | null>(null);
+  const [verificationWarning, setVerificationWarning] = React.useState<string | null>(null);
   const [verificationError, setVerificationError] = React.useState<string | null>(null);
   const [verificationLoading, setVerificationLoading] = React.useState(Boolean(reference));
 
@@ -27,12 +28,15 @@ export default function OrderSuccessPage({
     if (!reference) {
       setVerificationLoading(false);
       setVerificationMessage(null);
+      setVerificationWarning(null);
       setVerificationError(null);
       return;
     }
 
     const verifyPayment = async () => {
       setVerificationLoading(true);
+      setVerificationMessage(null);
+      setVerificationWarning(null);
       setVerificationError(null);
 
       try {
@@ -50,11 +54,15 @@ export default function OrderSuccessPage({
         }
 
         if (!cancelled) {
-          setVerificationMessage(
-            data.notification === 'already_sent'
-              ? 'The store owner was already emailed with your order details.'
-              : 'The store owner has been emailed with your paid order details.'
-          );
+          if (data.notification === 'failed') {
+            setVerificationWarning('Your payment was confirmed, but automatic store notification is unavailable right now. Please contact support and share this payment reference.');
+          } else {
+            setVerificationMessage(
+              data.notification === 'already_sent'
+                ? 'The store owner was already emailed with your order details.'
+                : 'The store owner has been emailed with your paid order details.'
+            );
+          }
         }
       } catch (error) {
         if (!cancelled) {
@@ -96,8 +104,13 @@ export default function OrderSuccessPage({
                 {verificationMessage}
               </p>
             ) : null}
-            {verificationError ? (
+            {verificationWarning ? (
               <p className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-700">
+                {verificationWarning}
+              </p>
+            ) : null}
+            {verificationError ? (
+              <p className="mt-4 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700">
                 {verificationError}
               </p>
             ) : null}

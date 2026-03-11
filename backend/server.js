@@ -75,25 +75,39 @@ function validateVerifiedTransaction(transaction, order) {
   }
 }
 
+function logOwnerNotificationFailure(reference, error) {
+  const message = error instanceof Error ? error.message : 'Unknown notification error.';
+  console.error(`Owner notification failed for payment ${reference}: ${message}`);
+}
+
 async function notifyOwnerOfPaidOrder(transaction) {
   const order = readOrderFromMetadata(transaction.metadata);
   validateVerifiedTransaction(transaction, order);
 
   const alreadyNotified = notifiedReferences.has(transaction.reference);
   if (!alreadyNotified) {
-    await sendOwnerOrderEmail(order, {
-      reference: transaction.reference,
-      paidAt: transaction.paid_at || null,
-      channel: transaction.channel || null,
-      amountMinor: transaction.amount,
-      currency: transaction.currency || order.currency,
-    });
+    try {
+      await sendOwnerOrderEmail(order, {
+        reference: transaction.reference,
+        paidAt: transaction.paid_at || null,
+        channel: transaction.channel || null,
+        amountMinor: transaction.amount,
+        currency: transaction.currency || order.currency,
+      });
 
-    notifiedReferences.add(transaction.reference);
+      notifiedReferences.add(transaction.reference);
+    } catch (error) {
+      logOwnerNotificationFailure(transaction.reference, error);
+
+      return {
+        notification: 'failed',
+        order,
+      };
+    }
   }
 
   return {
-    alreadyNotified,
+    notification: alreadyNotified ? 'already_sent' : 'sent',
     order,
   };
 }
@@ -194,13 +208,13 @@ async function handleCheckoutVerify(req, res) {
     }
 
     const transaction = await verifyPaystackTransaction(reference);
-    const { alreadyNotified } = await notifyOwnerOfPaidOrder(transaction);
+    const { notification } = await notifyOwnerOfPaidOrder(transaction);
 
     sendJson(res, 200, {
       ok: true,
       reference: transaction.reference,
       status: transaction.status,
-      notification: alreadyNotified ? 'already_sent' : 'sent',
+      notification,
     });
   } catch (error) {
     sendJson(res, 400, {

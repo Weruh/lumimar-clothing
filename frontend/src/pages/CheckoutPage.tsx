@@ -264,7 +264,7 @@ export default function CheckoutPage() {
               </p>
             ) : null}
             <button type="submit" className="w-full rounded-full bg-ebony px-5 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-soft-cream transition hover:bg-deep-gold hover:text-ebony disabled:cursor-not-allowed disabled:bg-cloud-gray/80 disabled:text-ebony/40" disabled={cartEmpty || isSubmitting || quoteLoading || Boolean(quoteError)}>
-              {isSubmitting ? 'Redirecting to Paystack...' : 'Pay with Paystack'}
+              {isSubmitting ? 'Pay with Mpesa' : 'Pay with Mpesa'}
             </button>
           </form>
           <aside className="space-y-6 rounded-3xl bg-white p-6 shadow-soft">
