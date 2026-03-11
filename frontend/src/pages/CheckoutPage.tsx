@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { BackButton } from '@/components/BackButton';
 import { convertUsdToKes, formatCurrency, getCatalog } from '@/lib/catalog';
 import { useCart } from '@/components/CartProvider';
-import { fetchJson } from '@/lib/api';
+import { fetchJson, isServiceUnavailableError } from '@/lib/api';
 
 const paymentMethods = [
   { name: 'Paystack', description: 'Secure card payments and supported Paystack channels.' },
@@ -25,6 +25,10 @@ type CheckoutQuote = {
   shipping: number;
   grandTotal: number;
 };
+
+function waitFor(ms: number) {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
 
 export default function CheckoutPage() {
   const { items } = useCart();
@@ -86,25 +90,45 @@ export default function CheckoutPage() {
       setQuoteError(null);
 
       try {
-        const data = await fetchJson<CheckoutQuote>(
-          '/api/checkout/quote',
-          {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              items: items.map((item) => ({
-                slug: item.slug,
-                quantity: item.quantity,
-                size: item.size,
-                color: item.color,
-              })),
-            }),
+        const requestInit = {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
           },
-          'estimate your order total',
-          6000
-        );
+          body: JSON.stringify({
+            items: items.map((item) => ({
+              slug: item.slug,
+              quantity: item.quantity,
+              size: item.size,
+              color: item.color,
+            })),
+          }),
+        };
+
+        let data: CheckoutQuote;
+
+        try {
+          data = await fetchJson<CheckoutQuote>(
+            '/api/checkout/quote',
+            requestInit,
+            'estimate your order total',
+            12000,
+            'checkout service'
+          );
+        } catch (initialError) {
+          if (!isServiceUnavailableError(initialError)) {
+            throw initialError;
+          }
+
+          await waitFor(2500);
+          data = await fetchJson<CheckoutQuote>(
+            '/api/checkout/quote',
+            requestInit,
+            'estimate your order total',
+            20000,
+            'checkout service'
+          );
+        }
 
         if (!cancelled) {
           setQuote(data);
@@ -167,7 +191,7 @@ export default function CheckoutPage() {
           }),
         },
         'start your payment',
-        30000
+        45000
       );
 
       window.location.assign(data.authorizationUrl);
